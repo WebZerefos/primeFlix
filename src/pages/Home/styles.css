@@ -1,0 +1,46 @@
+.list {
+  max-width: 800px;
+  margin: 14px auto;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+}
+
+.list article {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.list strong {
+  text-align: center;
+  font-size: 22px;
+  display: block;
+}
+
+.list img {
+  width: 900px;
+  max-width: 100%;
+  max-height: 340px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  text-decoration: none;
+  background-color: coral;
+  font-size: 24px;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -3px;
+}
